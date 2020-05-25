@@ -1,0 +1,104 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px
+background-color:white;
+}
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+.footer {
+  background-color: white;
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  color: black;
+}
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
+}
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+}
+.navbar-dark {
+  background-color: #3333FF;
+}
+
+.bg-header{
+  background-color: black;
+}
+
+.shadow{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: verdana;
+    font-weight: 900;
+    font-size: 70px;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+
+.modal-title{
+  right: 20%;
+}
+
+.tab-content {
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  padding: 10px;
+}
+
+.bg-color{
+  background-color: white;
+  text-decoration-color: white;
+}
+
+.bg-body-color{
+  background-color: #B0C4DE;
+}
+.slide-right {
+  width: 100%;
+  overflow: hidden;
+  margin-left: 2%;
+  max-width: 100%
+}
+
+.image-slider{
+  width: 100%;
+  overflow: hidden;
+  margin-right: 2%;
+  max-width: 100%
+}
+
+.slide-right h2 {
+  animation: 2s slide-right 2s forwards;
+    transform:translateX(-100%);
+}
+
+@keyframes slide-right {
+  to {
+    transform:translateX(0);
+  }
+}
+
+h1{
+  font-weight: bolder;
+}
